@@ -7,12 +7,3 @@ route44.addEventListener("click", function() {
     image.src = "images/time 44.png";
     alert("67");
 });
-
-route115.addEventListener("click", function() {
-    image.src = "images/time 115.png";
-});
-
-route159.addEventListener("click", function() {
-    image.src = "images/time 159.png";
-
-});
