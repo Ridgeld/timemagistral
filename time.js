@@ -5,10 +5,10 @@ const image = document.getElementById("timetable");
 const text = document.getElementById("routeName");
 
 route44.addEventListener("click", function() {
-    image.src = "images/time 44.png";
+    image.src = "images/time44.png";
     text.textContent = "Маршрут №44";
 });
 route115.addEventListener("click", function() {
-    image.src = "images/time 115.png";
+    image.src = "images/time115.png";
     text.textContent = "Маршрут №115";
 });
