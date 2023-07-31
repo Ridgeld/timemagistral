@@ -18,7 +18,7 @@ body{
 .menu{
     display: flex;
     width: 20%;
-    height: 100vh;
+    height: auto;
     flex-direction: column;
     align-items: center;
     gap: 100px;
@@ -53,6 +53,7 @@ body{
 .time{
     display: flex;
     padding-top: 40px;
+    padding-bottom: 100px;
     flex-direction: column;
     align-items: center;
     gap: 30px;
@@ -66,8 +67,11 @@ body{
     color: #FFF;
     font-weight: normal;
     font-size: 20px;
+    text-align: center;
 }
-.route44{
+
+.hidden{
+    display: none;
 }
 table{
     color: #fff;
